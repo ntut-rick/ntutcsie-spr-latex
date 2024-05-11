@@ -1,9 +1,15 @@
 # NTUTCSIE Special Project Report LaTeX Template
 
 > [!WARNING]  
-> This template is unoffical and created on [Overleaf](https://www.overleaf.com/)
+> This template is unofficial and created on [Overleaf](https://www.overleaf.com/)
 
 A XeLaTeX Template for NTUTCSIE Special Project Course
+
+## Known Issues
+
+1. Chinese Reference Format does not match the official version
+2. Page number(s) are missing
+3. There may be some issues with English autowrap
 
 ## Note
 The compiler should be XeLaTeX for xeCJK support. (default compiler on Overleaf is pdfLaTeX)

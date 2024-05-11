@@ -1,0 +1,29 @@
+\def\projectTitle{實務專題計畫期中摘要報告 撰寫格式說明(更改為專題題目)}
+\def\projectNumber{113-CSIE-SXXX-MID}
+\def\projectPeriod{112 年第 1 學期至 113 年第 1 學期}
+\def\projectInstructor{OOO}
+\newcommand{\member}[1]{&#1\\}
+\def\projectMembers{
+    \member{xxxxxx(學號) OOO(姓名)}
+    \member{xxxxxx(學號) OOO(姓名)}
+    \member{xxxxxx(學號) OOO(姓名)}
+}
+
+\newcommand\makeptitle{
+{\begin{center}
+    {\fontsize{16pt}{1em}\selectfont\textbf{\projectTitle}}
+    \vspace*{11pt}\vspace*{0pt}
+    \hspace*{1.65in}
+    \begin{minipage}{\linewidth}
+        \begin{flushleft}
+        {\fontsize{14pt}{1em}\selectfont
+        專題編號：\projectNumber \\
+        執行期限：\projectPeriod \\
+        指導教授：\projectInstructor \\
+        \begin{tabular}{@{}l@{}l}
+        專題參與人員：\ \projectMembers
+        \end{tabular}}
+        \end{flushleft}
+    \end{minipage}
+    \vspace*{11pt}\vspace*{0pt}
+\end{center}}}

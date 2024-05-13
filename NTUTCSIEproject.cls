@@ -30,6 +30,7 @@
 \fancyhf{}
 \fancyhead[L]{\fontsize{10pt}{1em}實務專題計畫期中摘要報告}
 \renewcommand{\headrulewidth}{0pt}
+\cfoot{\thepage} % page number
 
 \titleformat{\section}
   {\normalfont\fontsize{12}{15}\bfseries}{\thesection}{1em}{}

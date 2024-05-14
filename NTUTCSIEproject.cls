@@ -40,4 +40,6 @@
 
 % \renewcommand{\subsection}[1]{\oldsection{#1}\setlength{\parindent}{0em}}
 
+\captionsetup[figure]{labelfont={bf},name={圖},labelsep=period} % Set figure label format
+
 \endinput
